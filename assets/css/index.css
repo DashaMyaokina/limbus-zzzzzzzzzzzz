@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(75, 75, 75);
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.logo {
+    width: 600px;
+}
+.profil {
+    height: 90%;
+    aspect-ratio: 1/1;
+}
+.menu {
+    height: 95%;
+    width: 150px;
+}
+
+.body {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.main {
+    display:flex;
+    flex-grow: 1;
+    background-color: rgb(43, 43, 43);
+    align-items: center;
+    justify-content: center;
+}
+html {
+    height: 100%;
+}
