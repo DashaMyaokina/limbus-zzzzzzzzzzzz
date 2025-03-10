@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/counter.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <script defer src="./assets/js/counter.js"></script>
+    <script defer src="./assets/js/navigation.js"></script>
     <title>Counter</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Бургер-меню -->
+      <div class="burger-menu" id="burger-menu">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </div>
+
+      <!-- Иконка профиля -->
+      <div class="profile-icon">
+        <img src="./assets/images/Profil_Icon.svg" alt="Профиль" />
+      </div>
+    </header>
+
+    <!-- Навигационное меню -->
+    <nav class="nav-menu" id="nav-menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Counter</a></li>
+        <li><a href="./settings.html">Settings</a></li>
+        <li><a href="./support.html">Support</a></li>
+        <li><a href="./profil.html">Profil</a></li>
+      </ul>
+    </nav>
+    <main class="counter-main">
+      <div class="content-wraper">
+        <h1 class="counter-title">Sinners</h1>
+        <section class="list">
+          <img src="./assets/images/Id/Yi_Sang/Id.png" alt="Yi_Sang" />
+          <img src="./assets/images/Id/Faust/Id.png" alt="Faust" />
+          <img src="./assets/images/Id/Don_Quixote/Id.png" alt="Don_Quixote" />
+          <img src="./assets/images/Id/Ryōshū/Id.png" alt="Ryōshū" />
+          <img src="./assets/images/Id/Meursault/Id.png" alt="Meursault" />
+          <img src="./assets/images/Id/Hong_Lu/Id.png" alt="Hong_Lu" />
+          <img src="./assets/images/Id/Heathcliff/Id.png" alt="Heathcliff" />
+          <img src="./assets/images/Id/Ishmael/Id.png" alt="Ishmael" />
+          <img src="./assets/images/Id/Rodion/Id.png" alt="Rodion" />
+          <img src="./assets/images/Id/Sinclair/Id.png" alt="Sinclair" />
+          <img src="./assets/images/Id/Outis/Id.png" alt="Outis" />
+          <img src="./assets/images/Id/Gregor/Id.png" alt="Gregor" />
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
+
+// 1. Получаем ссылки на всех персонажей // 2. Получаем название персонажей,
+которые будут выступать в качестве названия папок // 3. Проходимся по списку
+персонажей, получаем для каждого картинки // 4. Переходим по ссылке для каждого
+персонажа, там же скачиваем обложку // 5. Скачиваем скиллы
